@@ -1,4 +1,4 @@
-function display(){
+function display(val){
     let a = 5;
     let b = 3.5;
     let c = "Hello";
@@ -6,6 +6,11 @@ function display(){
     let e = true;
     const f = 5;
     var g = 6;
+
+    let pi = 3.14;
+    let h = 2;
+
+
 
     console.log('Button Clicked from external');
 
@@ -17,4 +22,6 @@ function display(){
     console.log(c);
     console.log(d);
     console.log(e);
+    console.log(a%h);
+    console.log(a+val);
 }
